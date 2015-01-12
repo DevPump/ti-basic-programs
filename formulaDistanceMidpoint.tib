@@ -1,0 +1,11 @@
+ClrHome
+Disp "Distance/Midpoint Formula"
+Disp "(Matt Fleming [DevPump])"
+Disp "sqrt((x1-y1)^2+(x2-y2)^2)"
+Disp "(x1,y1),(x2,y2)"
+Prompt A,B,C,D
+(((C-A)^2)+((D-B)^2))->E
+Disp "Distance Formula"
+Disp "E^2=",E,[root]^2E)
+Disp "Midpoint Formula"
+Disp ((A+C)/2)->FRAC,((B+D)/2)->FRAC
