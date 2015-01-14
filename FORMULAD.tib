@@ -2,7 +2,6 @@ Disp "X2"
 Input A
 Disp "X1"
 Input B
-
 Disp "Y2"
 Input C
 Disp "Y1"

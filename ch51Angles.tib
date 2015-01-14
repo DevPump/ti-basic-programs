@@ -1,0 +1,31 @@
+ClrHome
+Disp "Matt Fleming [DevPump]"
+Disp "Menu"
+Disp "(1) Definitions"
+Disp "(2) Solvers"
+Input A
+If A=1
+Then
+::"Definition Code here
+::Disp "Initial side: Right X-Axis"
+::Disp "Revolution: 360 Degree"
+::Disp "CompAngle Add to 90 Degree"
+End
+If A=2
+Then
+::"Solvers Code here
+::Disp "(1)Find Degrees"
+::Input A
+If A=1
+Then
+::Disp " Degree Minute Seconds -"
+::Prompt A,B,C,D
+
+::(A+(B/60)+(C/3600))->E
+If D=1
+Then
+[neg](E)->E
+End
+Disp E
+End
+End
